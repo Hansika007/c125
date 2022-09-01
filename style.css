@@ -1,0 +1,38 @@
+.note
+{
+    font-size: 15px;
+    color: black;
+}
+
+.heading
+{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    color: darkblue;
+    bottom: 0;
+    width: 100%;
+    background-color: aqua;
+    line-height: 2;
+    text-align: center;
+}
+
+canvas
+{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px darkgray;
+    border-color: blueviolet;
+    border-width: 5px;
+}
+
+@keyframes example 
+{
+    from {box-shadow: 1px 1px 38px red;}
+    to {box-shadow: 1px 1px 38px lightpink;}
+}
